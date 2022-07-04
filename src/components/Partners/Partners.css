@@ -1,0 +1,168 @@
+
+.canvasPartners{
+    position: relative !important;
+    width:  100vw !important;
+    height: 800px !important; 
+    
+}
+
+.coursel-root{
+
+    position: relative !important;
+}
+.partnersTitle{
+    padding-top: 50px !important;
+}
+.legend{
+    background: transparent !important;
+}
+
+
+@media only screen and (max-width: 780px) {
+    .canvasPartners{ 
+        position: relative;
+        width:  100vw !important;
+        height: 500px !important; 
+    }
+}
+
+.partners-title {
+    text-align: center;
+    margin: 50px auto 0;
+    width: 720px;
+}
+.partners-title__h2 {
+    font-size:45px;
+    line-height:52px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.partners-title__citat {
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.partners-title__p {
+    font-size: 23px;
+    line-height: 26px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+/*odavde jedinstven css*/
+
+.partners-container img {
+    width: 100%;
+    }
+
+.ss-partners {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.partners-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 100%;
+    flex-direction: row;
+}
+
+.partner-card-container {
+    flex: 0 0 33%; /*ovde! izmeniti za vise partnera*/
+    max-width: 33%; /*ovde! izmeniti za vise partnera*/
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+}
+.small {
+    display: none;
+}
+.partner-logo {
+    filter: grayscale(100%) brightness(1.5) contrast(.7);
+    padding: 10%;
+    transform: scale(.98) ;
+    transition: filter .4s ease-in-out,
+                transform .4s ease-in-out;
+}
+
+.partner-logo.small {
+    filter: grayscale(100%) brightness(1.5) contrast(.7);
+    padding: 5%;
+    transform: scale(.7) ;
+    transition: filter .4s ease-in-out,
+                transform .4s ease-in-out;
+}
+
+.partner-logo:hover {
+    filter: grayscale(0%) brightness(1) contrast(1);
+    transform: scale(1);
+}
+
+
+@media only screen and (max-width: 780px) {
+    .partner-card-container {
+        flex: 0 0 50%;
+        max-width: 50%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+}
+@media only screen and (max-width: 320px) {
+    .small {
+        display: block;
+    }
+    .big {
+        display: none;
+    }
+    .partner-card-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: 0 0 33.3333%;
+        max-width: 33.3333%;
+        margin: 0 auto;
+        }
+}
+
+/* OVO NE - VEZANO ZA NASLOV */
+
+@media only screen and (max-width: 768px) {
+    .partners-title {
+        width: 540px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .partners-title {
+        width: 272px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .partners-title {
+        width: 332px;
+    }
+    .partners-title__h2 {
+        font: size 32px;
+        line-height:36px;
+        margin-bottom: 30px;
+        font-weight: 700;
+    }    
+    .partners-title__p {
+        font-size: 18px;
+        line-height: 22px;
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+    .partners-title__citat {
+        font-size: 20px;
+        line-height: 22px;
+        margin-bottom: 30px;
+        font-weight: 400;
+    }
+}

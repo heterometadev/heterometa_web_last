@@ -1,0 +1,74 @@
+
+  .boxContainer2 {
+    position: sticky;
+    /* top: 20%;
+    left: 20%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    height: 60%;
+    background: rgb(234, 227, 227);
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    z-index: 10;
+    /* box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px; */
+  
+    }
+    @media (max-width: 768px) {
+      .boxContainer2{
+        position: sticky;
+        top: 30%;
+        left: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 40%;
+        background: black;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+        z-index: 10;
+      }
+     }
+  
+    .sceneContainer{
+        height: 150px !important;
+    }
+  
+    .boxCenter2{
+      justify-content: center;
+      /* background-color: #000000;
+      width: 50%;
+      height: 50%;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      left:20%; */
+      
+      }
+  
+  
+      .hero2 {
+        height: 100vh;
+        width: 90vw;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        /* background: url("https://images.unsplash.com/photo-1569171206684-dfb2749d96fd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80") no-repeat center center; */
+        background-size: cover;
+        overflow: hidden;
+      
+      }
+      
+      .logo2 {
+        background: url("https://logodownload.org/wp-content/uploads/2019/07/mini-logo.png") no-repeat center center;
+        background-size: contain;
+        overflow: hidden;
+        width: 320px;
+        height: 180px;
+      }
